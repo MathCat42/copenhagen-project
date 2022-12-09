@@ -1,10 +1,11 @@
 body {
-    float: center
+    float: center;
 }
 h1 {
     text-align: center;
 }
 #start {
-    width: 50px;
+    width: 500px;
+    height: 250px;
     float: center;
 }
