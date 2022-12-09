@@ -1,3 +1,6 @@
+function init() {
+    
+}
 var questions = []
 questions[0] = {options: ["","","",""], ans: 3}
 questions[1] = {options: ["","","",""], ans: 1}
@@ -13,4 +16,7 @@ questions[10] = {options: ["","","",""], ans: 4}
 questions[11] = {options: ["","","",""], ans: 2}
 questions[12] = {options: ["","","",""], ans: 1}
 questions[13] = {options: ["","","",""], ans: 1}
-document.getElementById("option1")
+document.getElementById("option1").style.display = "none"
+document.getElementById("option2").style.display = "none"
+document.getElementById("option3").style.display = "none"
+document.getElementById("option4").style.display = "none"
