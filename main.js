@@ -13,3 +13,4 @@ questions[10] = {options: ["","","",""], ans: 4}
 questions[11] = {options: ["","","",""], ans: 2}
 questions[12] = {options: ["","","",""], ans: 1}
 questions[13] = {options: ["","","",""], ans: 1}
+document.getElementById("")
