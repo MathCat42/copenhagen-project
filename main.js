@@ -1,8 +1,13 @@
-function init() {
+function main() {
     var title = document.getElementById("title")
     title.style.display = "none"
     var author = document.getElementById("author")
     author.style.display = "none"
+    option1.style.display = "block"
+    option2.style.display = "block"
+    option3.style.display = "block"
+    option4.style.display = "block"
+
 }
 var questions = []
 questions[0] = {options: ["","","",""], ans: 3}
