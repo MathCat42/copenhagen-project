@@ -1,14 +1,12 @@
 body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-button {
     float: center;
-}
-h1 {
     text-align: center;
 }
 #start {
     width: 500px;
     height: 250px;
     float: center;
+    font-size: 50px
 }
+
