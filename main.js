@@ -3,6 +3,8 @@ function main() {
     title.style.display = "none"
     var author = document.getElementById("author")
     author.style.display = "none"
+    var startbutton = document.getElementById("startbutton")
+    startbutton.style.display = "none"
     option1.style.display = "block"
     option2.style.display = "block"
     option3.style.display = "block"
@@ -32,3 +34,7 @@ var option3 = document.getElementById("option3")
 option3.style.display = "none"
 var option4 = document.getElementById("option4")
 option4.style.display = "none"
+for (let i = 0; i <= 13; i++) {
+    eval("var " + "info" + i + " = " + document.getElementById("info"+i))
+  }
+alert(info1,info2,info3,info4)
